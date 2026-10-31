@@ -1,0 +1,28 @@
+# Secret keys: never upload these
+.env
+.env.*
+!.env.example
+*.local
+
+# Health data: the shared clinic data and the files patients upload
+backend/uploads/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+
+# Data sets: download them from their own sources
+BCMID/
+*.zip
+
+# Editors and the operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
